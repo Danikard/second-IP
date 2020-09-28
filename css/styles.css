@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/rocks_stones_surf_187188_1280x720.jpg");
+    background-image: -o-repeating-linear-gradient()
+}
+
+
+
+h1 {color:gold;
+    text-align: center;
+}
+p {
+    color:black;
+    font-size: 20px;
+  }
+input[type=text] {
+    width: 10%;
+    background-color: #3CBC8D;
+    color: black;
+  }
+input[type=text] focus {
+    border: 3px solid rgb(128, 128, 128);
+}
+input[type=text] {
+    transition: width 0.4s ;
+  }
+  
+  input[type=text]:focus {
+    width: 15%;
+  }
+  form {
+      margin-left: 650px;
+      margin-top: 90px;
+  }
+ 
+  #p2{
+      text-align: center;
+      margin-top: 110px;
+      margin-left: 45px;
+  }
+  #p3{
+      text-align: center;
+      color: rgba(255, 102, 0, 0.979);
+  }

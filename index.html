@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <style>
+      body{
+          background-image: url(cloud.jpeg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+
+        }
+    </style> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="styless.css" rel="stylesheet" type="">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    <script src="index.js"></script>
-    <h1>
+    
+ <h1>
     YOUR AKAN.NAME
 </h1>
-    <P>Here we analise your birthday and your gender, <br>
-       and then print out your akan name.<br>
-       Akan names are derived from Ghanian culture.<br>
-       Frequently in Ghana, children are given their first name as a 'day name'<br>
-       which corresponds to the day in the week they were born. <br>
+<P>
+   Here we analise your birthday and your gender, <br>
+   and then print out your akan name.<br>
+   Akan names are derived from Ghanian culture.<br>
+   Frequently in Ghana, children are given their first name as a 'day name'<br>
+   which corresponds to the day in the week they were born. <br>
 
 
     </P>
+    <p id=p3>
+        PLEASE ENTER YOUR ..
+    </p>
     <form action="/action_page.php">
-        <label for="fname">birthday:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <input type="submit" value="Submit">
-     </form>
-      <form action="/action_page.php"></form>
-            <label for="gender">Choose your gender:</label>
-            <select id="gender" name="gener">
-              <option value="male">male</option>
-              <option value="female">female</option>
-            </select>
-            <input type="submit">
+        <label for="birthday">birthday:</label>
+        <input type="text" id="birthday" name="birthday"><br><br>
+        <label for="gender">Choose your gender:</label>
+        <select id="gender" name="gener">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        </select>
+        <input type="submit">
 
-        <p>your akan name is:</p>
+        
         </form>
-
+<p id="p2">your akan name is:
+    </p>
 </body> 
 </html>
