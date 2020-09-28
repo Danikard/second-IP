@@ -1,7 +1,7 @@
-/* body{
+ body{
     background-image: url("https://images.wallpaperscraft.com/image/rocks_stones_surf_187188_1280x720.jpg");
     background-image: -o-repeating-linear-gradient()
-} */
+} 
 
 
 
@@ -33,9 +33,10 @@ input[type=text] {
   }
  
   #p2{
-      text-align: center;
-      margin-top:100px;
-      margin-left: 80px;
+      /* text-align: center; */
+      margin-top:75px;
+      margin-left: 600px;
+      color:black;
   }
   #p3{
       text-align: center;
