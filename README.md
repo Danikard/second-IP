@@ -7,6 +7,7 @@ html
 css
 javascript
 #### link akanNAMEs
+http://127.0.0.1:5500/index.html?birthday=&gener=male
 #### contacts
 email: kajothada@gmail.com
 #### lisence
